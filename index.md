@@ -27,7 +27,5 @@ En esta página encontrarás el material de clase referente al curso de _Postgre
 
 * [Clase 1](Clase1.md)
 
-* [Clase 2]()
-
-[Código SQL](Scripts_Clase/Clase2.sql)
+* [Clase 2]() || [Código SQL](Scripts_Clase/Clase2.sql)
 
