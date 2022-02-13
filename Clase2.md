@@ -6,21 +6,21 @@
 
 ### Creación de tablas
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase2\Captura1.PNG)
+![](Clase2/Captura1.PNG)
 
 Una vez que ya creamos nuestra base de datos nos iremos a la parte que dice _Schemas_ (esquemas) 
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase2\Captura2.PNG)
+![](Clase2/Captura2.PNG)
 
 donde en automático se creó el esquema _public_ el cual será en el que trabajaremos. Además podemos ver otras opciones, las cuales representan la materia prima de este curso, es decir, a lo largo del curso abordaremos la creación de tablas, funciones, triggers, procedimientos, manejaremos secuencias, crearemos vistas, etcétera.
 
 Ahora bien, en _public_ daremos click derecho y después seleccionaremos donde dice _Query tool_
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase2\Captura3.PNG)
+![](\Clase2/Captura3.PNG)
 
 lo que nos desplegará una ventana a la derecha donde podremos trabajar propiamente con el lenguaje SQL
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase2\Captura4.PNG)
+![](Clase2/Captura4.PNG)
 
 Antes de crear nuestra primer tabla es preciso que definamos un proyecto en el cual trabajaremos a lo largo de este curso para que éste vaya tomando forma. Elegimos trabajar en una base de datos referente a una papelería.
 
@@ -94,15 +94,15 @@ CREATE TABLE productos(
 
 y después daremos click en ejecutar:
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase2\Captura5.PNG)
+![](Clase2/Captura5.PNG)
 
 lo que nos arrojará en la parte de abajo el siguiente mensaje
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase2\Captura6.PNG)
+![](Clase2/Captura6.PNG)
 
 que indica que nuestro código se ha ejecutado exitosamente en un tiempo de un segundo con 68 segundos. Si hubiera fallado algo en nuestro código, en esa misma parte nos hubiera marcado un mensaje indicándonos el posible error que cometimos. Así, nuestra tabla ``productos`` ha quedado guardada en nuestra base de datos
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase2\Captura7.PNG)
+![](Clase2/Captura7.PNG)
 
 Para las tablas restantes utilizamos el siguiente código:
 
@@ -131,7 +131,7 @@ CREATE TABLE ventas(
 
 note que para ejecutar un código en postgre debemos de seleccionarlo previamente como se ve en la siguiente imagen
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase2\Captura8.PNG)
+![](Clase2/Captura8.PNG)
 
 
 
