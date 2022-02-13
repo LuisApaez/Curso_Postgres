@@ -10,6 +10,7 @@ Una vez que hemos abierto _pgAdmin_, en la página principal daremos click en _S
 
 ![](Clase1/Captura1.PNG)
 
+
 De ahí daremos click derecho en _Databases_ y después en _create_ y pulsaremos en _DATABASE..._
 
 ![](Clase1/Captura2.PNG)
@@ -43,6 +44,7 @@ donde la mayaría de ellos se verán en clases posteriores.
 Así es como se puede crear una base de datos en _pgAdmin_, donde utilizamos un menú y una ventana que nos ayudaron a crearla. Como vimos, para crearla no fue necesario tener conocimiento en el lenguaje SQL pues en _pgAdmin_ fuimos guiados en todo momento. No obstante, en otros SMBD como _SQLserver_ podemos crear la base de datos desde una _consola SQL_ (o Query console), no obstante, en este curso sólo nos centraremos a trabajar en _pgAdmin_.
 
 
+[Regresar](index.md)
 
 
 
