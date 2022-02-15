@@ -191,3 +191,6 @@ En conjunto ya hemos abordado las 4 sentencias de las que hablamos sobre el _len
 3. Elimina dos filas de cualquiera de las tablas
 
 4. Modifica el valor de un registro por cada tabla de tu base de datos. 
+
+
+[Regresar](index.md)
