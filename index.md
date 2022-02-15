@@ -1,4 +1,6 @@
-En esta página encontrarás el material de clase referente al curso de _PostgreSQL_, desde apuntes, ejercicios y los códigos SQL que se abordan en cada clase.
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png)
+
+En esta página encontrarás el material de clase referente al curso de _PostgreSQL_ en _pgAdmin_, desde apuntes, ejercicios y los códigos SQL que se abordan en cada clase.
 
 ## Temario
 1. Primeros pasos en _pgAdmin_
