@@ -60,4 +60,4 @@ En esta página encontrarás el material de clase referente al curso de _Postgre
 
 #### Otros cursos:
 
-* [Curso Python](https://luisapaez.github.io/Curso_Python/)
+\| [Curso Python](https://luisapaez.github.io/Curso_Python/) \|
