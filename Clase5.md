@@ -74,7 +74,7 @@ donde después de escribir ``ADD CONSTRAINT`` pusimos ``pk_empleados_id_empleado
 
 Una vez que ya hemos ejecutado el código veremos en la parte del menú de la izquierda que la llave primaria que hemos definido aparece en la parte de ``constraints``
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase5\Captura1.PNG)
+![]Clase5/Captura1.PNG)
 
 Si deseáramos eliminar una llave primaria utilizaríamos la siguiente sintaxis
 
