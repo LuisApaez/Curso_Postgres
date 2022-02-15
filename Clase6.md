@@ -30,7 +30,7 @@ INSERT INTO productos(nombre_productos, cantidad_almacen, precio)
 SELECT * FROM productos;
 ```
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase6\Captura4.PNG)
+![](Clase6/Captura4.PNG)
 
 Recordemos de clases pasada que ya habíamos ingresado algunos empleados en la tabla ``empleados``
 
@@ -38,7 +38,7 @@ Recordemos de clases pasada que ya habíamos ingresado algunos empleados en la t
 SELECT * FROM empleados; 
 ```
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase6\Captura5.PNG)
+![](Clase6/Captura5.PNG)
 
 
 
@@ -54,7 +54,7 @@ INSERT INTO ventas(producto_vendido, cantidad, total, empleado)
 SELECT * FROM ventas;
 ```
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase6\Captura6.PNG)
+![](Clase6/Captura6.PNG)
 
 Sin problema alguno pudimos ingresar la información anterior, no obstante, hemos "vendido" un producto que no tenemos registrado en la tabla ``productos``, lo cual representa un error grave para nuestro negocio pues no tenemos un correcto control sobre los productos que ofrecemos, lo cual puede representar pérdidas para el negocio. Por otro lado, vemos que en la columna ``empleado`` hemos colocado el nombre de un empleado, el cual está previamente registrado en la tabla ``empleados``, así, en dicha columna estamos haciendo una correcta referencia.
 
@@ -89,7 +89,7 @@ Esto es, consideraremos algo como
 
 donde le producto venido 1 hace referencia a aquel que tenga el id igual a 1 en la tabla ``productos``; el empleado con id igual a 1 sabemos que es Luis, el empleado con id igual a 2 sabemos que es Zed. De esta forma conseguimos un equivalente a lo que teníamos anteriormente
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase6\Captura6.PNG)
+![](Clase6/Captura6.PNG)
 
 pero ahora tenemos todo lo necesario para definir las llaves foráneas que queremos.
 
@@ -138,7 +138,7 @@ FOREING KEY (<<columna referencia>>) REFERENCES <<tabla referenciada>>(<<columna
 
 Vemos que las llaves foráneas aparecen en el menú de la izquierda en la parte de ``constraints``
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase6\Captura7.PNG)
+![](Clase6/Captura7.PNG)
 
 Ahora si, ingresamos información a nuestra tabla ``ventas``
 
@@ -150,7 +150,7 @@ INSERT INTO ventas(id_producto_vendido, cantidad, total, id_empleado) VALUES(1, 
 SELECT * FROM ventas;
 ```
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase6\Captura8.PNG)
+![](Clase6/Captura8.PNG)
 
 Ahora, si intentamos agregar un producto no registrado en la tabla de ventas nos marcaría un error. Por ejemplo, como en la tabla ``productos`` sólo tenemos dos productos, ingresemos el id igual a 3 (el cual no existe previamente en la tabla ``productos``) en la tabla ``ventas`` 
 
@@ -158,7 +158,7 @@ Ahora, si intentamos agregar un producto no registrado en la tabla de ventas nos
 INSERT INTO ventas(id_producto_vendido, cantidad, total, id_empleado) VALUES(3, 100, 50, 2);
 ```
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase6\Captura9.PNG)
+![](Clase6/Captura9.PNG)
 
 
 
