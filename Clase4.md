@@ -38,7 +38,7 @@ En esta clase trabajaremos con cada una de las sentencias mencionadas anteriorme
 
 Comenzaremos por ingresar información a nuestra base de datos. Para ello comenzaremos por ingresar la información en la tabla empleados. Para ello debemos saber bien cuáles son las columnas que la conforman y el tipo de dato que aceptan, pues si ingresamos (por ejemplo) un número real en una columna que admite enteros entonces _postgres_ nos marcará error.
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase4\Captura1.PNG)
+![](Clase4/Captura1.PNG)
 
 Por consiguiente, ingresaremos la información de un primer empleado utilizando el siguiente código
 
@@ -83,7 +83,7 @@ SELECT * FROM empleados;
 
 lo cual nos arroja al ejecutarlo lo siguiente:
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase4\Captura2.PNG)
+![](Clase4/Captura2.PNG)
 
 donde puede verse que en automático se ha puesto el número 1 en el ``id_empleados``, además podemos ver los nombres de las columnas y el tipo de dato que admiten. 
 
@@ -96,7 +96,7 @@ INSERT INTO empleados(nombre, app, apm, horario) VALUES ('Zed', 'Ocaña', 'Lópe
 SELECT * FROM empleados;
 ```
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase4\Captura3.PNG)
+![](Clase4/Captura3.PNG)
 
 donde puede verse que en las columnas donde no ingresamos información se ha colocado en automático la etiqueta ``null``. En muchas ocasiones, tener valores nulos no es lo más óptimo en una base de datos, en algunos otros caso no hay otra alternativa. Como en nuestro caso, el tener el registro de un empleado sin tener especificado el puesto que cubre no puede ocurrir, entonces ingresaremos la información que nos falta referente al empleado Zed. Para ello haremos uso de la sentencia ``UPDATE``. La sintaxis básica es
 
@@ -141,7 +141,7 @@ y realizamos una consulta para ver los cambios
 SELECT * FROM empleados;
 ```
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase4\Captura4.PNG)
+![](Clase4/Captura4.PNG)
 
 donde ya no tenemos los valores nulos que teníamos antes.
 
@@ -154,7 +154,7 @@ INSERT INTO empleados(nombre, app, apm, puesto, salario, horario)
 
 la cual no tiene ningún sentido pero nos ayudará a utilizar la sentencia ``DELETE``. Una vez que consultamos la tabla
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase4\Captura5.PNG)
+![](Clase4/Captura5.PNG)
 
 procedemos a eliminar la fila 3 con los datos que no tienen sentido, para ello escribimos
 
@@ -165,7 +165,7 @@ DELETE FROM empleados WHERE id_empleados = 3;
 
 y después consultamos para ver que la fila 3 ya no está en la tabla ``empleados``
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase4\Captura6.PNG)
+![](Clase4/Captura6.PNG)
 
 
 
