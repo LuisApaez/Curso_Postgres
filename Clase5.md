@@ -95,3 +95,6 @@ ALTER TABLE empleados DROP CONSTRAINT pk_empleados_id_empleados;
 ##### Ejercicio
 
 Definir una llave primaria en cada una de las tablas que tienes almacenadas en tu base de datos (referente al proyecto de la papelería)
+
+
+[Regresar](index.md)
