@@ -31,17 +31,17 @@ En esta página encontrarás el material de clase referente al curso de _Postgre
 ### DDL
 * [Clase 2: Cración de una tabla](Clase2.md) \| [Ver código SQL](https://github.com/LuisApaez/Curso_Postgres/blob/gh-pages/Scripts_Clase/Clase2.sql) \| [Descargar archivo SQL](Scripts_Clase/Clase2.sql) \|
 
-* [Clase 3: Sentencias ``DROP`` y ``ALTER`` ]()
+* [Clase 3: Sentencias ``DROP`` y ``ALTER`` ](Clase3.md) \| [Ver código SQL](https://github.com/LuisApaez/Curso_Postgres/blob/gh-pages/Scripts_Clase/Clase3.sql) \| [Descargar archivo SQL](Scripts_Clase/Clase3.sql) \|
 
 ### DML
 
-* [Clase 4: Sentencias ``INSERT, UPDATE`` y ``DELETE`` ]()
+* [Clase 4: Sentencias ``INSERT, UPDATE`` y ``DELETE`` ](Clase4.md) \| [Ver código SQL](https://github.com/LuisApaez/Curso_Postgres/blob/gh-pages/Scripts_Clase/Clase4.sql) \| [Descargar archivo SQL](Scripts_Clase/Clase4.sql) \|
 
 ### Restricciones
 
-* [Clase 5: Llave primaria]()
+* [Clase 5: Llave primaria](Clase5.md) \| [Ver código SQL](https://github.com/LuisApaez/Curso_Postgres/blob/gh-pages/Scripts_Clase/Clase5.sql) \| [Descargar archivo SQL](Scripts_Clase/Clase5.sql) \|
 
-* [Clase 6: Llave foránea]()
+* [Clase 6: Llave foránea](Clase6.md) \| [Ver código SQL](https://github.com/LuisApaez/Curso_Postgres/blob/gh-pages/Scripts_Clase/Clase6.sql) \| [Descargar archivo SQL](Scripts_Clase/Clase6.sql) \|
 
 * [Clase 7: Restricciones ``CHECK, NOT NULL`` y ``UNIQUE``]()
 
