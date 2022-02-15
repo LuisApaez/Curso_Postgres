@@ -1,4 +1,4 @@
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" width=50%>
 
 En esta página encontrarás el material de clase referente al curso de _PostgreSQL_ en _pgAdmin_, desde apuntes, ejercicios y los códigos SQL que se abordan en cada clase.
 
