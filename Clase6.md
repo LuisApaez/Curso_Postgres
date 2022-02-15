@@ -168,3 +168,6 @@ INSERT INTO ventas(id_producto_vendido, cantidad, total, id_empleado) VALUES(3, 
 
 1. De acuerdo a la relación de las tablas en tu base de datos (referente al proyecto de la papelería), define las llaves foráneas que sean necesarias. Para ello, si es necesario, tendrás que eliminar y volver a crear tablas para que se acoplen a la definición de las llaves foráneas (como se hizo en clase con la tabla ``ventas``).
 2. Una vez hecho el punto uno, realiza en cada tabla de tu base de datos al menos tres inserciones.
+
+
+[Regresar](index.md)
