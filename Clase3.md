@@ -31,7 +31,7 @@ CREATE TABLE prueba(
 
 la cual, como ya sabemos, se mostrará dentro del esquema público en la parte de _Tables_
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase3\Captura1.PNG)
+![](Clase3/Captura1.PNG)
 
 ---
 
@@ -63,31 +63,31 @@ donde la ejecución ha sido exitosa
 
 
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase3\Captura2.PNG)
+![](Clase3/Captura2.PNG)
 
 Luego, puede que sigamos viendo la tabla dentro del esquema público. Para actualizarlo damos click derecho en _public_ y después click en _Refresh_
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase3\Captura3.PNG)
+![](Clase3/Captura3.PNG)
 
 con lo cual deberías de conseguir que las únicas tablas que se muestran son las que creamos la clase pasada
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase3\Captura4.PNG)
+![](Clase3/Captura4.PNG)
 
 Otra alternativa para eliminar una tabla es ir directamente a ella en el esquema público y pulsar click derecho, después seleccionamos la opción que dice _Delete/Drop_ 
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase3\Captura5.PNG)
+![](Clase3/Captura5.PNG)
 
 Así, tendremos dos opciones cuando queramos eliminar una tabla: una, utilizando código SQL y la otra yendo a las opciones que nos brinda _pgAdmin_ al dar click derecho en la tabla en cuestión.
 
 De hecho, para eliminar una base de datos procederíamos a ir a dicha base y pulsar click derecho, después seleccionaríamos la opción _Delete/Drop_
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase3\Captura6.PNG)
+![](Clase3/Captura6.PNG)
 
 ##### Modificación de una tabla
 
 Supongamos que en la tabla ``empleados``
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase3\Captura7.PNG)
+![](Clase3/Captura7.PNG)
 
 olvidamos colocar la columna ``horario``. Si bien podríamos eliminar dicha tabla y después volverla a crear agregando la columna que nos faltó, este método después sería inconcebible pues imagines que dicha tabla cuenta ya con mil filas, entonces al eliminar la tabla perderíamos toda la información. 
 
@@ -105,7 +105,7 @@ ALTER TABLE empleados ADD COLUMN horario VARCHAR;
 
 Para ver los cambios, como ya sabemos, vamos a la tabla ``empleados`` y damos click derecho, después pulsamos ``Refresh``, con lo cual deberíamos de ver
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase3\Captura.PNG)
+![](Clase3/Captura.PNG)
 
 ya la columna ``horario``.
 
@@ -163,11 +163,11 @@ Te recomiendo escribir en un script todo el código del ejercicio anterior e irl
 
 Para descargar el script SQL de _pgAdmin_ nos vamos a _Save As_ en:
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase3\Captura8.PNG)
+![](Clase3/Captura8.PNG)
 
 Es importante saber la ruta donde deseas guardar el script SQL. Una vez que pulsamos en _Save As_ se abrirá la siguiente pestaña
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase3\Captura9.PNG)
+![](Clase3/Captura9.PNG)
 
 donde
 
