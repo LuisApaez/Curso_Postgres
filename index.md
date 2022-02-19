@@ -30,12 +30,12 @@ En esta página encontrarás el material de clase referente al curso de _Postgre
 ### Primeros pasos en _pgAdmin_
 * [Clase 1: Creación de una base de datos](Clase1.md)
 
-### DDL
+### Lenguaje de definición de datos (DDL)
 * [Clase 2: Creación de una tabla](Clase2.md) \| [Ver código SQL](https://github.com/LuisApaez/Curso_Postgres/blob/gh-pages/Scripts_Clase/Clase2.sql) \| [Descargar archivo SQL](Scripts_Clase/Clase2.sql) \|
 
 * [Clase 3: Sentencias ``DROP`` y ``ALTER`` ](Clase3.md) \| [Ver código SQL](https://github.com/LuisApaez/Curso_Postgres/blob/gh-pages/Scripts_Clase/Clase3.sql) \| [Descargar archivo SQL](Scripts_Clase/Clase3.sql) \|
 
-### DML
+### Lenguaje de manipulación de datos (DML)
 
 * [Clase 4: Sentencias ``INSERT, UPDATE`` y ``DELETE`` ](Clase4.md) \| [Ver código SQL](https://github.com/LuisApaez/Curso_Postgres/blob/gh-pages/Scripts_Clase/Clase4.sql) \| [Descargar archivo SQL](Scripts_Clase/Clase4.sql) \|
 
