@@ -15,3 +15,5 @@ Nos valdremos de SQL server para lograr dicha labor, por ello es indispensable c
 ### Introducción a la limpieza de datos
 
 * [Primeros ejemplos](Clean/Clase1.html)
+
+* [Cleaning messy data](Clean/Clase2.html)
