@@ -55,8 +55,6 @@ En esta página encontrarás el material de clase referente al curso de _Postgre
 
 * [Clase 10: Consultas I]()
 
-* [prueba](https://github.com/LuisApaez/Curso_Postgres/blob/gh-pages/Clean/Clase1.ipynb)
-
 ---
 
 #### Otros cursos:
