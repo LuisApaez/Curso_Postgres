@@ -1,7 +1,7 @@
 
 ![](https://www.tech-bi.com/wp-content/uploads/2021/06/ms-sql-server-logo.png)
 
-En este curso aprenderemos a realizar la limpieza de datos, es decir, prepararemos los datos extraídos de alguna fuente para su respectivo análisis. 
+En este curso aprenderemos a realizar limpieza de datos, es decir, prepararemos los datos extraídos de alguna fuente para su respectivo análisis. 
 Nos valdremos de SQL server para lograr dicha labor, por ello es indispensable contar con él instalado ya en tu ordenador. Además, se requieren conocimientos básicos de SQL en SQL server para el mejor aprovechamiento del curso.
 
 ## Temario
