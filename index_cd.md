@@ -1,4 +1,3 @@
-## Curso de Cleaning Data con SQL server
 
 ![](https://www.tech-bi.com/wp-content/uploads/2021/06/ms-sql-server-logo.png)
 
