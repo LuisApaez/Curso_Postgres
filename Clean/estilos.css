@@ -1,0 +1,133 @@
+p {
+	font-size: 20px;  /*parráfos*/
+}
+body{
+	margin-right: 10%;
+	margin-left: 7%;
+	margin-top: 5%;
+}
+
+ul {
+	font-size: 17px;
+}	
+
+ol {
+	font-size: 17px;
+}	
+
+img {
+	width: 100%;
+	height: 100%;
+}
+.img_seis {
+	width: 60%;
+	height: 60%;
+}
+
+.img_cuatro {
+	width: 40%;
+	height: 40%;
+}
+
+.img_tresymedio {
+	width: 35%;
+	height: 35%;
+}
+.img_tres {
+	width: 30%;
+	height: 30%;
+}
+.img_dosymedio {
+	width: 25%;
+	height: 25%;
+}
+.img_dos {
+	width: 20%;
+	height: 20%;
+}
+/*codigo*/
+
+.c1 {
+	font-size:17px;	/*Comentarios*/
+}
+
+.n {
+	font-size: 17px; /*variables, x,y,etc*/
+}
+
+.o {
+	font-size: 17px; /*igual*/
+}
+
+.nb {
+	font-size: 17px;	/*funciones*/
+}
+
+.p {
+	font-size: 17px;	/*paréntesis*/
+}
+
+.ow {
+	font-size: 17px;	/*is, not, and,etc*/
+}
+
+.kc{
+	font-size: 17px;	 /*true, false*/
+}
+
+.s2{
+	font-size: 17px;	/*cadenas de texto*/
+}
+
+.kn{
+	font-size: 17px;	/*form, import*/
+}
+
+.nn{
+	font-size: 17px;	/*math, librerías*/
+}
+
+
+.mf{
+	font-size: 17px;	/*números flotantes*/
+}
+
+.mi{
+	font-size: 17px;	/*enteros*/
+}
+
+.s1 {
+	font-size: 17px;	/*f string (lo de adentro)*/
+}
+
+.sa {
+	font-size: 17px;	/*letra f de fstring*/
+}
+
+.k {
+	font-size: 17px;	/*while*/
+}
+
+.si {
+	font-size: 17px;	/*formato, llaves*/
+}
+
+.ne {
+	font-size: 17px;	/*Errores, excepciones*/
+}
+
+.nf {
+	font-size: 17px;	/*funciones descripción*/
+}
+
+.nc {
+	font-size: 17px;	/*nombre de la clase_clases*/
+}
+
+.bp {
+	font-size: 17px;	/*self_clases*/
+}
+
+.fm {
+	font-size: 17px;	/*métodos especiales (dounder)*/
+}
