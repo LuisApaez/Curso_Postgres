@@ -40,6 +40,7 @@ Así, dentro del cuerpo del documento (una vez ejecutado el código anterior) po
 
 SELECT * FROM prueba;
 \end{minted}
+\end{document}
 ```
 
 lo cual nos arrojará algo como:
@@ -49,3 +50,4 @@ lo cual nos arrojará algo como:
 
 SELECT * FROM prueba;
 ```
+
