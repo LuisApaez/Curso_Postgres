@@ -30,6 +30,7 @@ Lo siguiente es una celda de codigo:
 
 SELECT * FROM prueba;
 \end{minted}
+\end{document}
 ```
 
 Así, dentro del cuerpo del documento (una vez ejecutado el código anterior) podemos escribir 
@@ -40,7 +41,6 @@ Así, dentro del cuerpo del documento (una vez ejecutado el código anterior) po
 
 SELECT * FROM prueba;
 \end{minted}
-\end{document}
 ```
 
 lo cual nos arrojará algo como:
