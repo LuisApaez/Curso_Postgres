@@ -17,3 +17,5 @@ Nos valdremos de SQL server para lograr dicha labor, por ello es indispensable c
 * [Primeros ejemplos](Clean/Clase1.html)
 
 * [Cleaning messy data](Clean/Clase2.html)
+
+* [Comparing the similarity between strings](Clean/Clase3.html)
