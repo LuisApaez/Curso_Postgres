@@ -12,7 +12,7 @@ Desde hace dos clase hemos estado trabajando con las restricciones sobre nuestra
 
 Comencemos por ver los primeros registros de la tabla ``empleados``:
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase6_2\Captura1.PNG)
+![](Clase6_2/Captura1.PNG)
 
 y supongamos, por ejemplo, que por políticas de la empresa ningún empleado puede ganar más de 65000 mensuales. Así como hemos construido nuestra tabla no tendríamos problema alguno en ingresar un empleado cuyo salario exceda esta cifra. Por ello es necesario la implementación de una restricción sobre esta columna para impedir que se ingresen valores superiores a los 65000, lo cual conseguiremos al definir la restricción del tipo ``CHECK`` sobre al columna ``salario``, de modo que con esta retricción logramos controlar los valores que se ingresan en una columna en especifico. 
 
@@ -34,7 +34,7 @@ cuando lo ejecutemos probablemente nos salga un error que nos diga que dicha res
 SELECT * FROM empleados WHERE salario > 65000;
 ```
 
- ![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase6_2\Captura2.PNG)
+![](Clase6_2/Captura2.PNG)
 
 cuyo salario es exorbitante. Recordemos que los datos los generamos de amnera aleatoria, por lo que casos como estos se nos presentan. Se puede solucionar fácilmente este problema si actualizamos el valor del salario para este empleado:
 
@@ -51,7 +51,7 @@ INSERT INTO empleados(nombre, app, apm, puesto, salario, horario)
 
 con lo que obtenemos
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase6_2\Captura3.PNG)
+![](Clase6_2/Captura3.PNG)
 
 un error. Así, estamos garantizando que los registros de la tabla ``empleados``, en especifico los valores de la columna ``salario``, mantenga una integridad de acuerdo a nuestra necesidades. Otro ejemplo de la restricción ``CHECK`` es en campos referentes al _sexo_. Supongamos que en la tabla ``empleados`` tenemos una columna destinada al _sexo_ del empleado; para esta columna podríamos definir una restricción ``CHECK`` de la siguiente forma
 
@@ -100,7 +100,7 @@ INSERT INTO empleados(nombre, app, apm, salario, horario)
 	VALUES('Jenny', 'López', 'López', 10000, '6:00-9:00');
 ```
 
-![](C:\Users\weeee\OneDrive\Datos adjuntos\Documentos\Documentos(A)\Softwares\SQL\PostgreSQL\Clase6_2\Captura4.PNG)
+![](Clase6_2/Captura4.PNG)
 
 ###### Restricción ``unique``
 
@@ -112,14 +112,10 @@ La restricción ``unique`` actúa de manera muy similar, pues al definir ésta s
 ALTER TABLE empleados ADD CONSTRAINT uq_empleados_curp UNIQUE(curp);
 ```
 
-  
 
 _Observación:_ El proceso que estamos siguiendo para definir las restricciones no es el mejor, si bien es ilustrativo, éste debe realizarse desde que definimos las tablas y no después como lo estamos haciendo ahora.  De tal manera, lo primero que se debe hacer en un proyecto es pensar las tablas que se crearán, pensar las columnas de cada tabla y definir las restricciones sobre las columnas que sean necesarias.
 
 Por ende, la forma en la que estamos llevando el curso es, primero, aprender el código SQL y, después, sobre la marcha ir modificando el proyecto, lo cual es bastante ilustrativo y práctico; sin embargo no es la forma correcta de trabajar, pero, una vez que finalices el curso tendrás de igual manera las herramientas que te peritan trabajar con proyectos de la mejor forma posibble.
-
-
-
 
 
 ---
