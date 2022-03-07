@@ -45,7 +45,7 @@ En esta página encontrarás el material de clase referente al curso de _Postgre
 
 * [Clase 6: Llave foránea](Clase6.md) \| [Ver código SQL](https://github.com/LuisApaez/Curso_Postgres/blob/gh-pages/Scripts_Clase/Clase6.sql) \| [Descargar archivo SQL](Scripts_Clase/Clase6.sql) \|
 
-* [Clase 7: Restricciones ``CHECK, NOT NULL`` y ``UNIQUE``]()
+* [Clase 7: Restricciones ``CHECK, NOT NULL`` y ``UNIQUE``](Clase6_2.md) \| [Ver código SQL](https://github.com/LuisApaez/Curso_Postgres/blob/gh-pages/Scripts_Clase/Clase6_2.sql) \| [Descargar archivo SQL](Scripts_Clase/Clase6_2.sql) \|
 
 ### Consultas básicas
 
