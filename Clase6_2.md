@@ -136,4 +136,5 @@ Por ende, la forma en la que estamos llevando el curso es, primero, aprender el 
 
    ​	c. Elimina la restricción creada en el punto a. 
 
+
 2.  Elige cualquiera de tus tablas y coloca una restricción de no nulidad en alguna de sus columnas, así como una restricción ``UNIQUE``
