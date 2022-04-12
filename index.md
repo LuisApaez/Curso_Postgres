@@ -49,11 +49,11 @@ En esta página encontrarás el material de clase referente al curso de _Postgre
 
 ### Consultas básicas
 
-* [Clase 8: Utilizando _mockaroo_ para generar datos aleatorios I]()
+* [Clase 8: Utilizando _mockaroo_ para generar datos aleatorios I](Clase7.md)
 
-* [Clase 9: Utilizando _mockaroo_ para generar datos aleatorios II]()
+* [Clase 9: Utilizando _mockaroo_ para generar datos aleatorios II](Clase8.md)
 
-* [Clase 10: Consultas I]()
+* [Clase 10: Consultas I](Clase9.md)
 
 ---
 
