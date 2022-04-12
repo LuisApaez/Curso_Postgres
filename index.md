@@ -53,7 +53,7 @@ En esta página encontrarás el material de clase referente al curso de _Postgre
 
 * [Clase 9: Utilizando _mockaroo_ para generar datos aleatorios II](Clase8.md)
 
-* [Clase 10: Consultas I](Clase9.md)
+* [Clase 10: Consultas I](Clase9.md) \| [Ver código SQL](https://github.com/LuisApaez/Curso_Postgres/blob/gh-pages/Scripts_Clase/Clase9.sql) \| [Descargar archivo SQL](Scripts_Clase/Clase9.sql) \|
 
 ---
 
